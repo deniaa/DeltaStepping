@@ -1,4 +1,10 @@
 # DeltaStepping
+
+```
+Задание для Александра Денисова
+Реализовать delta stepping algorithm для больших графов. Сделать замеры времени для последовательной и параллельной версий. Оценить сильную и слабую масштабируемость.
+```
+
 Code contains simple Dijkstra algorithms (single thread and parallel mode) for compare results with delta-stepping. Single thread Dijkstra execution can take alot of time on huge graphs. Sorry for no option about this (temporary) misunderstanding.
 
 Single thread simple delta-stepping algorithm really work correctly and faster even than the parallel Dijkstra algorithm on graph with small maximum vertex degree.
